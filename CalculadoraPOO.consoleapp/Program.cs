@@ -44,7 +44,7 @@ namespace CalculadoraPOO.consoleapp
             operacoes calculadora = new operacoes();
             while (true)
             {
-                calculadora.Menu();
+                calculadora.menu();
 
                 calculadora.opcao = Console.ReadLine();
 
